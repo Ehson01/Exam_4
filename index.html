@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <style>
+        .back{
+            background-image: url(./img/background.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+        }
+        .blackback{
+            background: #000000aa;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .button{
+            background: linear-gradient(to right, #61B5E4, #0D75B0);
+            padding: 15px 20px 15px 20px;
+
+        }
+
+
+
+        @media (max-width: 500px) {
+            .back{
+                background-image: url(./img/background2.svg);
+            
+            }
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <header class="back text-white">
+        <div class="blackback">
+            <div class="max-w-90 lg:max-w-300 m-auto ">
+                <div class="flex items-center justify-between py-9 text-[18px] font-medium">
+                    <img src="./img/logo.svg" alt="">
+                    <nav class="hidden lg:flex gap-15">
+                        <a href="#">Кто мы?</a>
+                        <a href="#">Услуги</a>
+                        <a href="#">Акселератор</a>
+                        <a href="#">Новости</a>
+                    </nav>
+                    <button class="bg-[#07AF91] px-5 py-1.25 rounded-[10px] hidden lg:block">Войти</button>
+                    <div class="lg:hidden flex gap-5">
+                        <button class="bg-[#07AF91] px-5 py-1.25 rounded-[10px]">Войти</button>
+                        <img src="./img/icon_menu.svg" alt="">
+                    </div>
+                </div>
+            
+                <div class="text-white lg:w-174 w-90 lg:py-40 py-10 flex flex-col gap-6">
+                    <div class="flex lg:justify-start lg:text-start text-center lg:text-[43px] text-[23px]  font-bold flex-col">
+                        <h1>Запустите</h1>
+                        <h1 class="bg-[#07AF91] rounded-[10px] px-3 py-2 pb-3 lg:w-150 w-55 lg:m-0 m-auto">технологический <span class="hidden lg:inline">IT-</span>бизнес</h1>
+                        <h1 class="w-70 m-auto lg:w-auto lg:m-0">на международных рынках</h1>
+                    </div>
+                    <p class="text-[34px] hidden lg:block">Открыт набор заявок на акселератор</p>
+                    <p class="lg:hidden block text-center w-60 m-auto">Старт ближайшего акселератора  15.12.2022</p>
+                    <button class="button text-[20px] font-semibold rounded-[10px] w-50 m-auto lg:m-0">Подать заявку</button>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
