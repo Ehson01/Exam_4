@@ -237,6 +237,12 @@
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
+  .h-20 {
+    height: calc(var(--spacing) * 20);
+  }
   .h-35 {
     height: calc(var(--spacing) * 35);
   }
@@ -303,6 +309,9 @@
   .resize {
     resize: both;
   }
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -350,6 +359,9 @@
   .rounded-\[10px\] {
     border-radius: 10px;
   }
+  .rounded-\[12px\] {
+    border-radius: 12px;
+  }
   .rounded-\[16px\] {
     border-radius: 16px;
   }
@@ -384,6 +396,9 @@
   .border-gray-300 {
     border-color: var(--color-gray-300);
   }
+  .bg-\[\#2F7FE0\] {
+    background-color: #2F7FE0;
+  }
   .bg-\[\#07AF91\] {
     background-color: #07AF91;
   }
@@ -416,6 +431,9 @@
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
@@ -458,6 +476,9 @@
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .py-12 {
+    padding-block: calc(var(--spacing) * 12);
   }
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
@@ -591,6 +612,12 @@
   .text-white {
     color: var(--color-white);
   }
+  .text-white\/90 {
+    color: color-mix(in srgb, #fff 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in oklab, var(--color-white) 90%, transparent);
+    }
+  }
   .underline {
     text-decoration-line: underline;
   }
@@ -658,6 +685,12 @@
     .lg\:inline {
       display: inline;
     }
+    .lg\:h-20 {
+      height: calc(var(--spacing) * 20);
+    }
+    .lg\:h-30 {
+      height: calc(var(--spacing) * 30);
+    }
     .lg\:h-72 {
       height: calc(var(--spacing) * 72);
     }
@@ -675,6 +708,9 @@
     }
     .lg\:w-98 {
       width: calc(var(--spacing) * 98);
+    }
+    .lg\:w-140 {
+      width: calc(var(--spacing) * 140);
     }
     .lg\:w-145 {
       width: calc(var(--spacing) * 145);
@@ -756,6 +792,9 @@
     }
     .lg\:text-\[15px\] {
       font-size: 15px;
+    }
+    .lg\:text-\[16px\] {
+      font-size: 16px;
     }
     .lg\:text-\[18px\] {
       font-size: 18px;
