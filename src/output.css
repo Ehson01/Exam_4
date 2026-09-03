@@ -18,6 +18,7 @@
     --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-light: 300;
+    --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
@@ -283,11 +284,17 @@
   .h-\[45px\] {
     height: 45px;
   }
+  .w-5 {
+    width: calc(var(--spacing) * 5);
+  }
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
+  }
+  .w-12 {
+    width: calc(var(--spacing) * 12);
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
@@ -315,6 +322,24 @@
   }
   .w-90 {
     width: calc(var(--spacing) * 90);
+  }
+  .w-100 {
+    width: calc(var(--spacing) * 100);
+  }
+  .w-125 {
+    width: calc(var(--spacing) * 125);
+  }
+  .w-150 {
+    width: calc(var(--spacing) * 150);
+  }
+  .w-200 {
+    width: calc(var(--spacing) * 200);
+  }
+  .w-800 {
+    width: calc(var(--spacing) * 800);
+  }
+  .w-900 {
+    width: calc(var(--spacing) * 900);
   }
   .w-\[45px\] {
     width: 45px;
@@ -541,8 +566,17 @@
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
   }
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
+  }
+  .py-40 {
+    padding-block: calc(var(--spacing) * 40);
+  }
   .py-50 {
     padding-block: calc(var(--spacing) * 50);
+  }
+  .py-300 {
+    padding-block: calc(var(--spacing) * 300);
   }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
@@ -632,6 +666,10 @@
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
+  }
+  .font-normal {
+    --tw-font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-normal);
   }
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
@@ -792,8 +830,17 @@
     .lg\:h-72 {
       height: calc(var(--spacing) * 72);
     }
+    .lg\:w-5 {
+      width: calc(var(--spacing) * 5);
+    }
     .lg\:w-9 {
       width: calc(var(--spacing) * 9);
+    }
+    .lg\:w-15 {
+      width: calc(var(--spacing) * 15);
+    }
+    .lg\:w-50 {
+      width: calc(var(--spacing) * 50);
     }
     .lg\:w-55 {
       width: calc(var(--spacing) * 55);
@@ -813,6 +860,9 @@
     .lg\:w-100 {
       width: calc(var(--spacing) * 100);
     }
+    .lg\:w-125 {
+      width: calc(var(--spacing) * 125);
+    }
     .lg\:w-140 {
       width: calc(var(--spacing) * 140);
     }
@@ -822,8 +872,20 @@
     .lg\:w-150 {
       width: calc(var(--spacing) * 150);
     }
+    .lg\:w-160 {
+      width: calc(var(--spacing) * 160);
+    }
+    .lg\:w-165 {
+      width: calc(var(--spacing) * 165);
+    }
     .lg\:w-174 {
       width: calc(var(--spacing) * 174);
+    }
+    .lg\:w-200 {
+      width: calc(var(--spacing) * 200);
+    }
+    .lg\:w-250 {
+      width: calc(var(--spacing) * 250);
     }
     .lg\:w-265 {
       width: calc(var(--spacing) * 265);
