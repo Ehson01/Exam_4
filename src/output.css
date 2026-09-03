@@ -14,6 +14,7 @@
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-600: oklch(44.6% 0.03 256.802);
+    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-light: 300;
@@ -540,8 +541,17 @@
   .text-\[36px\] {
     font-size: 36px;
   }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
   .text-\[48px\] {
     font-size: 48px;
+  }
+  .text-\[60px\] {
+    font-size: 60px;
+  }
+  .text-\[70px\] {
+    font-size: 70px;
   }
   .text-\[80px\] {
     font-size: 80px;
@@ -570,6 +580,15 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-wrap {
+    text-wrap: wrap;
+  }
+  .text-\[\#2\] {
+    color: #2;
+  }
   .text-\[\#2d3b45\] {
     color: #2d3b45;
   }
@@ -581,6 +600,9 @@
   }
   .text-\[\#7fa1b5\] {
     color: #7fa1b5;
+  }
+  .text-\[\#87BBD8\] {
+    color: #87BBD8;
   }
   .text-\[\#777\] {
     color: #777;
@@ -608,6 +630,12 @@
   }
   .text-\[\#10101080\] {
     color: #10101080;
+  }
+  .text-\[px\] {
+    color: px;
+  }
+  .text-black {
+    color: var(--color-black);
   }
   .text-white {
     color: var(--color-white);
@@ -784,6 +812,20 @@
     .lg\:text-start {
       text-align: start;
     }
+    @media (width >= 64rem) {
+      .lg\:lg\:text-\[80px\] {
+        font-size: 80px;
+      }
+    }
+    .lg\:text-\[0px\] {
+      font-size: 0px;
+    }
+    .lg\:text-\[1px\] {
+      font-size: 1px;
+    }
+    .lg\:text-\[3px\] {
+      font-size: 3px;
+    }
     .lg\:text-\[11px\] {
       font-size: 11px;
     }
@@ -799,6 +841,9 @@
     .lg\:text-\[18px\] {
       font-size: 18px;
     }
+    .lg\:text-\[20px\] {
+      font-size: 20px;
+    }
     .lg\:text-\[24px\] {
       font-size: 24px;
     }
@@ -813,6 +858,25 @@
     }
     .lg\:text-\[43px\] {
       font-size: 43px;
+    }
+    .lg\:text-\[60px\] {
+      font-size: 60px;
+    }
+    .lg\:text-\[70px\] {
+      font-size: 70px;
+    }
+    .lg\:text-\[80px\] {
+      font-size: 80px;
+    }
+    .lg\:font-medium {
+      --tw-font-weight: var(--font-weight-medium);
+      font-weight: var(--font-weight-medium);
+    }
+    .lg\:text-\[18\] {
+      color: 18;
+    }
+    .lg\:text-\[px\] {
+      color: px;
     }
   }
 }
